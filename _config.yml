@@ -16,6 +16,8 @@ plugins:
 permalink: "/blog/:categories/:year/:month/:day/:title.html"
 paginate: 20
 paginate_path: "/blog/page:num/"
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://joseconstela.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
