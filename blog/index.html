@@ -1,0 +1,17 @@
+---
+layout: blog
+---
+
+{% for post in site.posts %}
+  <div class="entry-header">
+    <h3>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+  </div>
+  <div class="entry-content">
+    {{ post.excerpt }}
+    <p>
+      <a href="{{ post.url }}">Continue reading...</a>
+    </p>
+  </div>
+{% endfor %}

@@ -12,7 +12,11 @@
 markdown: kramdown
 plugins:
   - jekyll-feed
-destination: _site/blog
+
+permalink: "/blog/:categories/:year/:month/:day/:title.html"
+paginate: 20
+paginate_path: "/blog/page:num/"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
