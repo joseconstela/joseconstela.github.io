@@ -1,3 +1,4 @@
 ---
 layout: blog
+destination: /blog
 ---
