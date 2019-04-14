@@ -1,0 +1,34 @@
+---
+layout: blog
+---
+
+{% include head.html %}
+{% include header.html %}
+<div id="content" class="site-content">
+  <section id="primary" class="content-area">
+    <main id="main" class="site-main">
+      <article id="post-13" class="post-13 page type-page status-publish hentry entry">
+        <div class="entry-header">
+          <h2 class="entry-title">
+            Blog entries
+          </h2>
+        </div>
+        
+        {% for post in site.posts %}
+          <div class="entry-header">
+            <h3>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h3>
+          </div>
+          <div class="entry-content">
+            {{ post.excerpt }}
+            <p>
+              <a href="{{ post.url }}">Continue reading...</a>
+            </p>
+          </div>
+        {% endfor %}
+      </article>
+    </main>
+  </section>
+</div>
+{% include footer.html %}
