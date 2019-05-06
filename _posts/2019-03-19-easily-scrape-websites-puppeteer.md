@@ -12,7 +12,9 @@ Basically it allows anyone to scrape any content from any website, very easily.
 
 But not only that. It can also perform logins, take screeenshots, create PDF files, etc.
 
-### Installing WebParsy
+### Installing Webarsy
+
+
 
 > WebParsy is available in the NPM official repository. Make sure you have installed a recent version of [NodeJS](https://nodejs.org/).
 
