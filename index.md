@@ -2,9 +2,13 @@
 layout: page
 ---
 
-I help launching and boosting software products.
+Hello! I'm an ICT consultant. I Help Companies Boosting Their Operations and ICT Services.
 
-I have with experience helping to build scalable web apps, designing and implementing robust and large APIs with a focus on web performance optimisation. I work on a daily basis with NodeJS, MongoDB, microservices and serverless things on AWS.
+For the last 8 years I've been helping Spain, UK, Belgium, UE and Sidney based companies launching and boosting their products and operations.
+
+I help launching and boosting products, wether it's helping my customers researching, choosing and building the technology, infrastructure, getting smoother workflows, helping grow the team and creating processes and documentation for demanding environments.
+
+Some of them includes: Tata Consulting Services, Beamery, Seed Jobs, Collectable, Nightset, Univesidade de Vigo.
 
 I also sponsor, co-organize and give JavaScript talks on [JavaScript Ourense’s Meetup](https://www.meetup.com/es-ES/jsourense/)
 
