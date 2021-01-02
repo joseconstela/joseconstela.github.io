@@ -64,7 +64,7 @@ The first thing the scraper must do is visit their website. The first step of th
 
 The next thing to worry about is to tell the scraper where’s the city’s temperature in the web page.
 
-![](/images/scraping-temperature.png)
+![](/images/scraping-temperature.webp)
 
 You must help yourself to get the CSS selectors for the details you want to grab by using the browser’s dev tools.
 
