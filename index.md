@@ -12,7 +12,7 @@ Some of them includes: Tata Consulting Services, Beamery, Seed Jobs, Collectable
 
 I also sponsor, co-organize and give JavaScript talks on [JavaScript Ourense’s Meetup](https://www.meetup.com/es-ES/jsourense/)
 
-### Some open source projects
+### Projects
 
 You can check all my open source projects @ [joseconstela.github.io](https://joseconstela.github.io/)
 
