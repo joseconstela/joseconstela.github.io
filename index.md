@@ -14,12 +14,12 @@ I also sponsor, co-organize and give JavaScript talks on [JavaScript Ourense’s
 
 ### Projects
 
-You can check all my open source projects @ [joseconstela.github.io](https://joseconstela.github.io/)
-
 *   Tideflow, realtime & open source workflows execution and monitorization platform. [https://www.tideflow.io](https://www.tideflow.io)
 *   WebParsy, scrape websites using Puppeteer and YAML definitions [https://github.com/joseconstela/webparsy](https://github.com/joseconstela/webparsy)
 *   In-browser distributed computing [https://joseconstela.github.io/acio-js/](https://joseconstela.github.io/acio-js/)
 *   fask, NodeJS package for analysing large amount of files. [https://www.npmjs.com/package/fask](https://www.npmjs.com/package/fask)
+
+You can check all my open source projects @ [joseconstela.github.io](https://joseconstela.github.io/)
 
 ### Recommendations
 
@@ -65,11 +65,11 @@ You can check all my open source projects @ [joseconstela.github.io](https://jos
 
 ### Conferences and talks
 
-You can check all my talks, links and resources @ [github.com/joseconstela/talks-and-presentations](https://github.com/joseconstela/talks-and-presentations)
-
 *   “MongoDB”. JavaScript Ourense
 *   “Introduction to MeteorJS + from dev to prod in 5 mins demo”. GDG Ourense
 *   “Passion, what moves us to make a difference”. IES A Carballeira.
 *   “Web apps development: technologies, uses, and browsers”​. University of Vigo.
 *   “Web applications development: HTML5, CSS3, NOSQL”​. IES A Carballeira.
 *   “Opportunities for education in virtual platforms”. University of Vigo.
+
+You can check all my talks, links and resources @ [github.com/joseconstela/talks-and-presentations](https://github.com/joseconstela/talks-and-presentations)
