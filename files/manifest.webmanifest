@@ -1,9 +1,0 @@
-{
-  "name": "Jose Constela",
-  "short_name": "Jose Constela",
-  "theme_color": "#2196f3",
-  "background_color": "white",
-  "display": "browser",
-  "scope": "/",
-  "start_url": "/"
-}
