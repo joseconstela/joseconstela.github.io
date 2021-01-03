@@ -6,17 +6,42 @@ const filesToCache = [
   '/index.html'
 ]
 
-self.addEventListener('activate', e => self.clients.claim())
-self.addEventListener('install', e => {
-  console.log('install')
-  e.waitUntil(
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
     caches.open(cacheName)
-    .then(cache => cache.addAll(filesToCache))
-  )
-})
-self.addEventListener('fetch', e => {
-  e.respondWith(
-    caches.match(e.request)
-    .then(response => response ? response : fetch(e.request))
-  )
-})
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
+  );
+});
+
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        // Cache hit - return response
+        if (response) {
+          return response;
+        }
+        return fetch(event.request);
+      }
+    )
+  );
+});
+
+self.addEventListener('activate', function(event) {
+  var cacheWhitelist = ['jcCache'];
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.map(function(cacheName) {
+          if (cacheWhitelist.indexOf(cacheName) === -1) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+});
