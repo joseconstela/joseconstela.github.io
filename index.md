@@ -16,6 +16,7 @@ I also sponsor, co-organize and give JavaScript talks on [JavaScript Ourense’s
 
 *   Tideflow, realtime & open source workflows execution and monitorization platform. [https://www.tideflow.io](https://www.tideflow.io)
 *   WebParsy, scrape websites using Puppeteer and YAML definitions [https://github.com/joseconstela/webparsy](https://github.com/joseconstela/webparsy)
+*   Mongodb lambda proxy, for Amazon Web Services [https://github.com/joseconstela/mongodb-lambda-proxy](https://github.com/joseconstela/mongodb-lambda-proxy)
 *   In-browser distributed computing [https://joseconstela.github.io/acio-js/](https://joseconstela.github.io/acio-js/)
 *   fask, NodeJS package for analysing large amount of files. [https://www.npmjs.com/package/fask](https://www.npmjs.com/package/fask)
 
