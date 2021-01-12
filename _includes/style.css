@@ -114,6 +114,7 @@ a:focus { outline: thin dotted; text-decoration: underline; }
 .main-navigation .main-menu { display: inline-block; margin: 0; padding: 0; }
 .main-navigation .main-menu > li { color: #0073aa; display: inline; position: relative; }
 .main-navigation .main-menu > li > a { font-weight: 700; color: #0073aa; margin-right: 0.5rem; }
+.main-navigation .main-menu > li.highlight > a { color:rgb(246, 87, 87); }
 .main-navigation .main-menu > li > a:hover { color: #005177; }
 .main-navigation .main-menu > li.menu-item-has-children { display: inline-block; position: inherit; }
 @media only screen and (min-width: 768px) { .main-navigation .main-menu > li.menu-item-has-children { position: relative; } }
