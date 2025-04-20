@@ -1,6 +1,8 @@
 {
   "title": "Jose Constela",
   "image": "/og.png",
+  "site": "https://joseconstela.com",
+  "base": "/",
   "meta": {
     "keywords": ["joseconstela"]
   },
