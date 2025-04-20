@@ -1,0 +1,41 @@
+---
+import BaseHead from '~/components/shared/BaseHead.astro'
+import '~/styles/global.css'
+
+interface Props {
+  title?: string
+  description?: string
+  keywords?: string[]
+  image?: string
+}
+
+const { title, description, keywords, image } = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      keywords={keywords}
+      image={image}
+    />
+    <meta name="color-scheme" content="dark" />
+  </head>
+  <body class="bg-neutral-950 text-neutral-300 antialiased">
+    <slot />
+  </body>
+</html>
+
+<script>
+  // dynamically remove superfluous preloads
+  import type { TransitionBeforeSwapEvent } from 'astro:transitions/client'
+  document.addEventListener('astro:before-swap', e =>
+    [
+      ...(e as TransitionBeforeSwapEvent).newDocument.head.querySelectorAll(
+        'link[as="font"]',
+      ),
+    ].forEach(link => link.remove()),
+  )
+</script>

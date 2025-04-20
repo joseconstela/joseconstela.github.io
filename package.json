@@ -1,0 +1,58 @@
+{
+  "name": "quick-web",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier . --list-different",
+    "format:write": "prettier . --write",
+    "lint": "biome lint .",
+    "lint:write": "biome lint . --write",
+    "check": "astro check",
+    "prepare": "lefthook install",
+    "setup": "node --experimental-strip-types --no-warnings scripts/setup.ts"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.3.0",
+    "@tailwindcss/vite": "^4.1.4",
+    "astro": "5.7.2",
+    "astro-compress": "^2.3.8",
+    "astro-compressor": "^1.0.0",
+    "tailwindcss": "^4.1.4"
+  },
+  "engines": {
+    "node": "22",
+    "pnpm": ">=10.8.0"
+  },
+  "packageManager": "pnpm@10.8.1",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "*"
+      ],
+      "allowAny": [
+        "*"
+      ]
+    },
+    "onlyBuiltDependencies": [
+      "@biomejs/biome",
+      "esbuild",
+      "lefthook",
+      "sharp"
+    ]
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.4",
+    "@biomejs/biome": "1.9.4",
+    "esbuild": ">=0.25.2",
+    "lefthook": "1.11.10",
+    "prettier": "3.5.3",
+    "prettier-plugin-astro": "0.14.1",
+    "prettier-plugin-tailwindcss": "0.6.11",
+    "typescript": "5.8.3",
+    "vite-plugin-icons-spritesheet": "3.0.1"
+  }
+}

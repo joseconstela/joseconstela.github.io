@@ -1,0 +1,51 @@
+---
+import Container from '~/components/shared/Container.astro'
+import Icon from '~/components/ui/Icon.astro'
+import Layout from '~/layouts/Layout.astro'
+---
+
+<Layout>
+  <div class="flex flex-col">
+    <div class="flex flex-1 flex-col px-4 pt-8 sm:pt-12">
+      <Container>
+        <h1 class="mb-10 text-2xl font-medium">Jose Constela</h1>
+        <div class="space-y-6">
+          <p>Full E2E IT Product Engineering | Focused on AI for Scalable, Efficient Operations.</p>
+        </div>
+        <hr class="my-6 w-full border-(--pattern-fg)" />
+        <p class="mb-3">
+          For more than 10 years I helped my customers to research, choose and build the technology, the infrastrutcture, getting smoother workflows, helping the team to grow their skill and creating processes and documentation for high demanding environments.
+        </p>
+        <p class="mb-3">
+          Some of my customers are in Spain, UK, Belgium, USA and Sydney. Among them are: Tata Consulting Services, Beamery, Seed Jobs, Collectable, Nightset, University of Vigo.
+        </p>
+        <p class="mb-3">My specialities includes among others:</p>
+        
+        <ul class="mb-6 list-disc pl-5 space-y-1">
+          <li>NodeJS / Angular / React</li>
+          <li>Databases: MongoDB/Atlas, MySQL, PostgreSQL/RDS, Redis.</li>
+          <li>Devops: AWS, Microservices, Containers, Traefik.</li>
+          <li>AWS: IoT Core, Developer tools, SNS & SQS, Lambda, Api Gateway, EC2, RDS, IAM, Elastic Beanstalk, S3 & Cloudfront, Route 53, and many others.</li>
+        </ul>
+
+        <p class="font-medium">
+          <a
+            href="/Jose-Constela-CV.pdf"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="underline decoration-indigo-400 underline-offset-3 hover:text-white hover:decoration-2"
+            >Download CV</a
+          >
+          &nbsp;or&nbsp;
+          <a
+            href="https://linkedin.com/in/joseconstela"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="underline decoration-indigo-400 underline-offset-3 hover:text-white hover:decoration-2"
+            >View LinkedIn Profile</a
+          >
+        </p>
+      </Container>
+    </div>
+  </div>
+</Layout>
