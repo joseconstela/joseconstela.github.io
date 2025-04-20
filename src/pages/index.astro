@@ -6,13 +6,37 @@ import Layout from '~/layouts/Layout.astro'
 
 <Layout>
   <div class="flex flex-col">
-    <div class="flex flex-1 flex-col px-4 pt-8 sm:pt-12">
+    <div class="flex-1 flex-col px-4 pt-8 sm:pt-12">
       <Container>
-        <h1 class="mb-10 text-2xl font-medium">Jose Constela</h1>
+        <h1 class="text-2xl font-medium">Jose Constela</h1>
+        <p class="mb-10">
+
+          <a
+            href="/assets/Jose-Constela-CV.pdf"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="underline decoration-indigo-400 underline-offset-3 hover:text-white hover:decoration-2"
+            >Download CV</a
+          >
+          &nbsp; / &nbsp;
+          <a
+            href="https://linkedin.com/in/joseconstela"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="underline decoration-indigo-400 underline-offset-3 hover:text-white hover:decoration-2"
+            >View LinkedIn Profile</a
+          >
+          &nbsp; / &nbsp;
+          <a
+            href="mailto:jose@joseconstela.com"
+            class="underline decoration-indigo-400 underline-offset-3 hover:text-white hover:decoration-2"
+            >Send Email</a
+          >
+        </p>
+        <hr class="my-6 w-full border-(--pattern-fg)" />
         <div class="space-y-6">
           <p>Full E2E IT Product Engineering | Focused on AI for Scalable, Efficient Operations.</p>
         </div>
-        <hr class="my-6 w-full border-(--pattern-fg)" />
         <p class="mb-3">
           For more than 10 years I helped my customers to research, choose and build the technology, the infrastrutcture, getting smoother workflows, helping the team to grow their skill and creating processes and documentation for high demanding environments.
         </p>
@@ -27,24 +51,6 @@ import Layout from '~/layouts/Layout.astro'
           <li>Devops: AWS, Microservices, Containers, Traefik.</li>
           <li>AWS: IoT Core, Developer tools, SNS & SQS, Lambda, Api Gateway, EC2, RDS, IAM, Elastic Beanstalk, S3 & Cloudfront, Route 53, and many others.</li>
         </ul>
-
-        <p class="font-medium">
-          <a
-            href="./Jose-Constela-CV.pdf"
-            target="_blank"
-            rel="noreferrer noopener"
-            class="underline decoration-indigo-400 underline-offset-3 hover:text-white hover:decoration-2"
-            >Download CV</a
-          >
-          &nbsp;or&nbsp;
-          <a
-            href="https://linkedin.com/in/joseconstela"
-            target="_blank"
-            rel="noreferrer noopener"
-            class="underline decoration-indigo-400 underline-offset-3 hover:text-white hover:decoration-2"
-            >View LinkedIn Profile</a
-          >
-        </p>
       </Container>
     </div>
   </div>
